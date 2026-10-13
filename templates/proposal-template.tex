@@ -1,5 +1,6 @@
 % Research proposal skeleton: CERG-FLUX Lab, University of Pretoria
 % Replace with the Department's class or template if one is prescribed.
+% The % comments under each heading say what belongs there. Delete them as you write.
 \documentclass[11pt,a4paper]{article}
 \usepackage[margin=25mm]{geometry}
 \usepackage[british]{babel}
@@ -25,51 +26,90 @@ Department of Mechanical and Aeronautical Engineering, University of Pretoria\\[
 \maketitle
 
 \begin{abstract}
-Write last. Five sentences: context, gap, aim, method, expected contribution.
+% Write last. Five sentences: context, gap, aim, method, expected contribution. No citations and no equations.
 \end{abstract}
 
 \printnomenclature
 
 \section{Background and rationale}
+% Take the reader from the sub-field to the specific problem in no more than 1.5 pages. State plainly why the problem matters and to whom: an industry, a detector collaboration, a modelling community.
+
 \section{Literature review}
+% Organise by theme or method, never by author or date. Argue towards the gap: end each subsection with "However, ..." or "What remains unclear is ...".
 \subsection{Theme or method 1}
+% The broadest body of work your project rests on: what approaches exist, their strengths and their limits. Two to four paragraphs.
 \subsection{Theme or method 2}
+% The second strand you draw on, for example the numerical method, the ML technique or the physical system. Same treatment as the previous subsection.
 \subsection{Closest prior work}
+% The five to ten papers nearest your question, read in full. For each: what was done, under what assumptions, what it showed and what it did not.
 \subsection{Summary of the gap}
+% One paragraph stating precisely what is missing, followed by a comparison table of prior studies (method, case, regime, validation data, reported error). The empty cell in that table is your gap.
+
 \section{Research problem}
+% One paragraph: context, gap, and the consequence of leaving it unfilled. It must stand alone; a reader who sees only this paragraph should understand the project.
+
 \section{Justification, aim and objectives}
 \subsection{Justification}
+% Why this problem, why now, and why this approach. Link back to the gap and the stakeholder named in the background.
 \subsection{Research questions}
+% One primary, up to three secondary. Each bounded and falsifiable: it must be possible for the answer to be "no".
 \subsection{Aim}
+% One sentence, starting with a verb, stating what the project will deliver overall.
 \subsection{Objectives}
+% Three to five, each measurable with a tolerance (within 5 % of the benchmark). Every objective must map to a methodology subsection and a bar on the Gantt chart.
 \begin{enumerate}
   \item
   \item
   \item
 \end{enumerate}
 \subsection{Scope and delimitations}
+% What you will not do, and why. Name the regimes, geometries, physics or methods deliberately excluded.
 \subsection{Hypothesis}
+% Only if the work tests a claim. State it so that a specific result would refute it; delete this subsection otherwise.
+
 \section{Methodology}
 \subsection{Research design}
+% The overall approach (computational, experimental, hybrid) and its justification. For each major choice, name the alternative rejected and why.
 \subsection{Cases and parameter ranges}
+% The test matrix as a table: geometry, boundary conditions, dimensionless numbers, mesh or resolution, estimated cost per case.
 \subsection{Data generation and collection}
+% Hardware, software and versions, run protocol, storage location. Enough detail that another student could repeat the runs.
 \subsection{Verification, validation and uncertainty}
+% Code verification (analytical or manufactured solutions), solution verification (grid and time-step convergence), the named validation dataset(s), and how uncertainty will be quantified and reported.
 \subsection{Data analysis and metrics}
+% The quantities you will compute and compare, the error metrics, and any statistical treatment. Define the pass or fail criterion for each objective here.
 \subsection{Preliminary results}
+% Anything already working, labelled preliminary. A reproduced figure from a key paper or a first verification case is ideal; it is your strongest evidence of feasibility.
+
 \section{Quality of research}
+% How a reader will come to trust the results: the V&V plan, reproducibility (version control, environment capture, archived inputs), and planned peer review.
+
 \section{Ethical considerations and data management}
 \subsection{Ethics clearance}
+% Which Faculty ethics category applies and the current clearance status. Purely computational work still needs this statement.
 \subsection{Research data management plan}
+% What data will be produced, its volume and format, where it is stored and backed up, who may access it, and what will be archived or published at the end. Note POPIA where personal data is involved.
 \subsection{Use of AI tools}
+% Disclosure statement per the CERG-FLUX Lab AI Research Guardrails: which tools, for which tasks, and how their outputs are checked.
+
 \section{Timeline, resources and risk}
 \subsection{Work packages and Gantt chart}
+% One work package per objective, plus writing and fixed institutional dates. Writing runs in parallel with the research, not after it.
 \subsection{Milestones and deliverables}
+% A dated list: verification report, conference paper, each draft chapter, full draft to supervisor, submission.
 \subsection{Resources}
+% Compute (core hours, cluster, GPUs), software licences, experimental facilities, consumables and funding source. State what is confirmed and what is still to be secured.
 \subsection{Risk register}
+% A table: risk, likelihood, impact, mitigation, and the trigger for switching to the fallback. Technical risks (non-convergence, data access) and time risks both belong here.
 \subsection{Feasibility statement}
-\section{Expected contributions and outputs}
+% Two or three sentences arguing that the objectives fit the time and resources above, pointing to the preliminary results.
 
+\section{Expected contributions and outputs}
+% The knowledge contribution in one or two sentences, then the planned outputs: conference and journal papers with target venues, code or data releases.
+
+% References: only sources you have actually read. Keep one .bib file for the whole degree.
 \printbibliography
 \appendix
 \section{Preliminary results (extended)}
+% Extended preliminary results, long tables, code listings. Nothing the argument depends on.
 \end{document}

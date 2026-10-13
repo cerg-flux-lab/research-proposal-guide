@@ -47,7 +47,7 @@
 ## Tools
 
 - Overleaf (LaTeX), with the Lab template in `templates/proposal-template.tex`.
-- Zotero, JabRef or EndNote for references; keep one `.bib` for the whole degree.
+- Zotero for references; keep one `.bib` for the whole degree.
 - Mermaid for Gantt charts (renders on GitHub); see `templates/gantt-template.md`.
 - Pandoc for Markdown to LaTeX conversion.
 

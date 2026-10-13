@@ -2,6 +2,8 @@
 
 Mermaid renders natively on GitHub. Replace the dates and tasks. One section per objective; writing runs in parallel; include fixed institutional dates.
 
+Do not use a colon in a task name. Mermaid splits each task line at the first colon, so `Deliverable: report :milestone, ...` is a syntax error. Colons are fine in the chart title and in section names.
+
 ```mermaid
 gantt
     title Research plan: [working title]
@@ -17,7 +19,7 @@ gantt
     Implement core solver                   :o1a, 2027-06, 2027-09
     Code verification (analytical cases)    :o1b, 2027-08, 2027-10
     Solution verification (convergence)     :o1c, 2027-10, 2027-11
-    Deliverable: verification report        :milestone, m2, 2027-11, 0d
+    Verification report delivered           :milestone, m2, 2027-11, 0d
 
     section Objective 2: validation
     Validation case setup                   :o2a, 2027-11, 2028-01
